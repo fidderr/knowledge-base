@@ -1,8 +1,8 @@
-# homelab-notes
+# knowledge-base
 
-Short, tested, step-by-step fixes for smart-home and home-lab problems that
-the official docs skip. Each note says what it was tested on, what to do, and
-what went wrong along the way.
+Short, tested, step-by-step solutions to technical problems that the official
+docs skip: smart home, networking, self-hosting, peer-to-peer and more. Each
+note says what it was tested on, what to do, and what went wrong along the way.
 
 | Note | Problem |
 |---|---|
@@ -10,7 +10,7 @@ what went wrong along the way.
 
 ## Ground rules
 
-- Every note states the exact hardware and firmware it was tested on. If it
-  worked (or failed) for you on something else, open an issue.
+- Every note states the exact hardware, software and version it was tested on.
+  If it worked (or failed) for you on something else, open an issue.
 - Nothing here is official. Use it on your own devices only.
 - No secrets, no personal network details. Examples use placeholders.
