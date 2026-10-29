@@ -4,9 +4,9 @@ Short, tested, step-by-step solutions to technical problems that the official
 docs skip: smart home, networking, self-hosting, peer-to-peer and more. Each
 note says what it was tested on, what to do, and what went wrong along the way.
 
-| Note | Problem |
+| Note (one folder each) | Problem |
 |---|---|
-| [HomeWizard P1: set up Wi-Fi without the app or an account](notes/homewizard-p1-wifi-setup-without-app-or-account.md) | Put a HomeWizard P1 dongle on your Wi-Fi with two HTTPS requests, then run it fully local (no cloud) in Home Assistant |
+| [HomeWizard P1: set up Wi-Fi without the app or an account](notes/homewizard-p1-wifi-setup-without-app-or-account/) | Put a HomeWizard P1 dongle on your Wi-Fi with two HTTPS requests, then run it fully local (no cloud) in Home Assistant |
 
 ## Ground rules
 
@@ -14,3 +14,9 @@ note says what it was tested on, what to do, and what went wrong along the way.
   If it worked (or failed) for you on something else, open an issue.
 - Nothing here is official. Use it on your own devices only.
 - No secrets, no personal network details. Examples use placeholders.
+
+## Adding a note
+
+One folder per note under `notes/`, named after the problem. The folder holds
+a `README.md` (the guide) plus anything else it needs: scripts, configs,
+diagrams, captures.
